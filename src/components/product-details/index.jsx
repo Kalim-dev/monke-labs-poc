@@ -51,7 +51,7 @@ const ProductDetails = () => {
 
                 <Grid container item xs={12}  >
 
-                    <Grid item xs={3} sm={2} md={4} justifyContent={'center'} alignContent={'center'} sx={{
+                    <Grid item xs={2} sm={2} md={4} justifyContent={'center'} alignContent={'center'} sx={{
                         display: 'flex',
                         backgroundImage: `url(/assets/images/cart-add.png)`,
                         backgroundRepeat: 'no-repeat',
@@ -60,14 +60,14 @@ const ProductDetails = () => {
 
 
                     </Grid>
-                    <Grid item xs={9} sm={10} md={8}
+                    <Grid item xs={10} sm={10} md={8}
 
                         sx={{
                             backgroundImage: `url(/assets/images/product-detail-img.png)`,
 
                             height: 420,
                             backgroundRepeat: 'no-repeat',
-                            backgroundPosition: '40%'
+                            backgroundPosition: '100%'
 
                         }}>
 
